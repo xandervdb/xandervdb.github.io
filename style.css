@@ -1,0 +1,134 @@
+body{
+    font-family: sans-serif;
+    background-image: url("portefolio-achtergrond.jpg");  
+    background-size: cover;
+    margin: 0;
+    max-height: 100%;
+}
+article{
+    width: 400px;
+    background-color: rgba(136, 130, 130, 0.5);
+    margin-bottom: 24px;
+    order: 2;
+    padding: 0 0 10px 0
+}
+#algemeen{
+    position: relative;
+    left: 35%;
+    width: 450px;
+    height: 550px;
+}
+#examen{
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+div.wrapper{      
+   	width: 1000px;
+   	margin: 0 auto;
+    display: flex;
+   	flex-wrap: wrap;
+   	justify-content: space-between;
+
+}
+main{
+    width:100%;
+    padding: 24px 0 0 0 ;
+    margin: 0;
+}
+article{
+	width: 48%;
+	margin-bottom: 24px;
+	order: 2;
+    padding: 0 0 10px 10px;
+}
+.foto{
+    width: 400px;
+    height: 300px;
+    margin-left: 15px;
+}
+.navigatie {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li.bar {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+.hobby-foto{
+    padding: 15px;
+    float: right;
+    width: 450px;
+    height: 300px;
+}
+footer{
+
+   background-color: rgb(30, 5, 172);
+   border: 2px solid black;
+   height: 75px;
+   text-align: center;
+   color: white;
+}
+footer script{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#tijd{
+position: fixed;
+    left: 35%;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.hoek{
+    position: relative;
+    left: 35%;
+    width: 300px;
+}
